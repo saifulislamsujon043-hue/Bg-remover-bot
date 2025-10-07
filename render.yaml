@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: image-bg-remover-bot
+    env: python
+    plan: free
+    startCommand: python bot.py
